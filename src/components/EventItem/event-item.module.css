@@ -1,0 +1,39 @@
+.wrapper {
+    height: 90px;
+    padding: 26px 20px;
+    background-color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    margin: 1px 0;
+    box-shadow: 0 0 5px 2px rgba(62, 118, 244, 0.14);
+}
+.wrapper:hover {
+    background-color: #EEE;
+}
+.wrapper:first-child {
+    border-radius: 6px 6px 0 0;
+}
+.wrapper:last-child {
+    border-radius: 0 0 6px 6px;
+}
+.info {
+    text-align: left;
+    max-width: calc(100% - 45px);
+    margin-left: 8px;
+}
+.description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.date {
+    color: #888;
+}
+.avatar {
+    height: 37px;
+    width: 37px;
+    min-width: 37px;
+    border-radius: 50%;
+    overflow: hidden;
+}

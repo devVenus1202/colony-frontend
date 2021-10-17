@@ -1,0 +1,9 @@
+.wrapper {
+    width: 700px;
+    margin: 30px auto;
+}
+.loader {
+    width: 700px;
+    height: calc(100vh - 100px);
+    text-align: center;
+}
