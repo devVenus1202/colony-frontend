@@ -15,8 +15,8 @@ export default function Event() {
     }, [])
     return (
         <div className={styles.wrapper}>
-            {events && events.map((e:EventType) => {
-                return <EventItem key={e.blockNumber} event={e}></EventItem>
+            {events && events.map((e:EventType, index:number) => {
+                return <EventItem key={index} event={e}></EventItem>
             })}
             {loading && <div className={styles.loader}> <h2>Loading...</h2></div>}
         </div>
